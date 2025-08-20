@@ -1,0 +1,50 @@
+[
+  {
+    "id": "p1",
+    "name": "قميص قطن رجالي",
+    "price": 399.0,
+    "image": "https://images.unsplash.com/photo-1520975922325-24bc5435162d?q=80&w=800&auto=format&fit=crop",
+    "category": "ملابس",
+    "description": "قماش قطني 100%، مريح وخفيف للاستخدام اليومي."
+  },
+  {
+    "id": "p2",
+    "name": "حذاء رياضي",
+    "price": 899.0,
+    "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?q=80&w=800&auto=format&fit=crop",
+    "category": "أحذية",
+    "description": "تصميم أنيق ومتين للمشي والجري."
+  },
+  {
+    "id": "p3",
+    "name": "ساعة يد كلاسيك",
+    "price": 1299.0,
+    "image": "https://images.unsplash.com/photo-1511735111819-9a3f7709049c?q=80&w=800&auto=format&fit=crop",
+    "category": "إكسسوارات",
+    "description": "هيكل معدني مع سوار جلدي، مقاومة للماء."
+  },
+  {
+    "id": "p4",
+    "name": "حقيبة ظهر",
+    "price": 549.0,
+    "image": "https://images.unsplash.com/photo-1514477917009-389c76a86b68?q=80&w=800&auto=format&fit=crop",
+    "category": "حقائب",
+    "description": "سعة كبيرة وجيوب متعددة للرحلات والدراسة."
+  },
+  {
+    "id": "p5",
+    "name": "سماعات أذن",
+    "price": 299.0,
+    "image": "https://images.unsplash.com/photo-1518449079141-42f7f1e1269f?q=80&w=800&auto=format&fit=crop",
+    "category": "إلكترونيات",
+    "description": "صوت واضح وعزل جيد للضوضاء."
+  },
+  {
+    "id": "p6",
+    "name": "هودي شتوي",
+    "price": 499.0,
+    "image": "https://images.unsplash.com/photo-1544025162-d76694265947?q=80&w=800&auto=format&fit=crop",
+    "category": "ملابس",
+    "description": "نسيج دافئ ومريح مع قبعة."
+  }
+]
