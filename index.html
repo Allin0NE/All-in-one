@@ -1,107 +1,0 @@
-<!DOCTYPE html>
-<html lang="ar" dir="rtl">
-<head>
- <meta name="description" content="">
-<meta property="og:title" content="">
-<meta property="og:description" content="">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css" />
-</head>
-<body>
-  <header class="site-header">
-    <div class="container header-inner">
-      <div class="brand">
-        <span class="logo">🛍️</span>
-        <a href="./" class="store-name" id="storeName">متجر بسيط</a>
-      </div>
-      <div class="search-wrap">
-        <input id="searchInput" type="search" placeholder="ابحث عن منتج..." />
-      </div>
-      <button class="cart-btn" id="cartBtn" aria-label="السلة">
-        <span>السلة</span>
-        <span class="cart-count" id="cartCount">0</span>
-      </button>
-    </div>
-  </header>
-
-  <main class="container">
-    <section class="hero">
-      <h1>متجرك المجاني بالكامل</h1>
-      <p>إضافة المنتجات – تعديلها – استلام الطلبات على واتساب – استضافة مجانية.</p>
-      <a class="cta" href="#products">ابدأ التسوق</a>
-    </section>
-
-    <section class="filters">
-      <div class="filters-inner">
-        <div class="categories" id="categories">
-          <button data-cat="الكل" class="chip active">الكل</button>
-        </div>
-        <div class="sort">
-          <label for="sortSelect">ترتيب:</label>
-          <select id="sortSelect">
-            <option value="default">الافتراضي</option>
-            <option value="price_asc">السعر: من الأقل للأعلى</option>
-            <option value="price_desc">السعر: من الأعلى للأقل</option>
-            <option value="name_asc">الاسم: أ-ي</option>
-            <option value="name_desc">الاسم: ي-أ</option>
-          </select>
-        </div>
-      </div>
-    </section>
-
-    <section id="products" class="grid"></section>
-  </main>
-
-  <aside class="cart-drawer" id="cartDrawer" aria-hidden="true">
-    <div class="cart-header">
-      <h2>سلة المشتريات</h2>
-      <button id="closeCart" aria-label="إغلاق">✖</button>
-    </div>
-    <div id="cartItems" class="cart-items"></div>
-    <div class="cart-footer">
-      <div class="totals">
-        <div>الإجمالي: <strong id="cartTotal">0</strong> <span id="currencyLabel">EGP</span></div>
-      </div>
-      <button class="checkout-btn" id="checkoutBtn">إتمام الطلب</button>
-      <p class="muted small">الدفع عند الاستلام/واتساب – بدون أي عمولات منصات.</p>
-    </div>
-  </aside>
-
-  <div class="overlay" id="overlay"></div>
-
-  <dialog id="checkoutDialog" class="checkout-dialog">
-    <form id="checkoutForm" method="dialog">
-      <h3>بيانات التوصيل</h3>
-      <label>الاسم الكامل
-        <input required id="custName" type="text" placeholder="مثال: أحمد محمد" />
-      </label>
-      <label>الهاتف (واتساب)
-        <input required id="custPhone" type="tel" placeholder="مثال: 201234567890+" />
-      </label>
-      <label>العنوان
-        <textarea required id="custAddress" rows="3" placeholder="المدينة، الشارع، أقرب معلم..."></textarea>
-      </label>
-      <label>ملاحظات (اختياري)
-        <textarea id="custNote" rows="2" placeholder="وقت مناسب للتسليم، لون/مقاس..."></textarea>
-      </label>
-      <div class="dialog-actions">
-        <button type="button" id="cancelCheckout" class="ghost">إلغاء</button>
-        <button type="submit" class="primary">إرسال الطلب على واتساب</button>
-      </div>
-      <p class="muted small">لن تُفرض أي رسوم منصات. ستتحمل فقط تكاليف الشحن (إن وجدت).</p>
-    </form>
-  </dialog>
-
-  <footer class="site-footer">
-    <div class="container footer-inner">
-<footer>
-  <p>© متجري الإلكتروني — جميع الحقوق محفوظة 2025</p>
-</footer>
-    </div>
-  </footer>
-  <script src="config.js"></script>
-  <script src="script.js"></script>
-</body>
-</html>
