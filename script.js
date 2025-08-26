@@ -41,7 +41,7 @@ function applyConfig() {
     els.storeName.textContent = storeName;
     els.storeNameFoot.textContent = storeName;
     els.currencyLabel.textContent = currency;
-    document.title = storeName + ' — متجر مجاني';
+    document.title = storeName + ' — AIO';
     STATE.whatsappNumber = whatsappNumber;
   }
   els.year.textContent = new Date().getFullYear();
